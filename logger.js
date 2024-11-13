@@ -6,5 +6,5 @@ function b(str){
         return str
 }
 
-module.exports = a
-module.exports = b
+module.exports.a = a
+module.exports.b = b
