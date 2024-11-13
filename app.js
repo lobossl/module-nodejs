@@ -3,7 +3,7 @@ const express = require("express")
 const app = express()
 
 app.get("/:str",(req,res) =>{
-        const getStr = req.params.str
+        const getStr = req.params.str.toString()
 
         const add = db.add({
                 id: 1,
